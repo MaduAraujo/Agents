@@ -4,9 +4,13 @@ Um assistente interativo e inteligente que utiliza API do Google Gemini para for
 
 ## 📋 Sumário
 
+* [✅ Projeto Funcionando](#-projeto-funcionando)
 * [🚀 Tecnologias Utilizadas](#-tecnologias-utilizadas)
 * [⚙️ Configuração e Instalação](#%EF%B8%8F-configura%C3%A7%C3%A3o-e-instala%C3%A7%C3%A3o)
 * [🎮 Como Usar](#-como-usar)
+
+## ✅ Projeto Funcionando
+
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -23,17 +27,18 @@ Para configurar e rodar este projeto em seu ambiente de desenvolvimento local, s
 
 1.  **Clone o Repositório:**
     Abra seu terminal ou prompt de comando e execute:
+    
     ```bash
-    git clone [https://github.com/MaduAraujo/Agents.git](https://github.com/MaduAraujo/Agents.git)
+    git clone https://github.com/MaduAraujo/Agents.git
     cd Agents
     ```
-
-2.  **Obtenha sua API Key do Google Gemini:**
+    
+3.  **Obtenha sua API Key do Google Gemini:**
     * Para interagir com o modelo Gemini, você precisará de uma chave de API.
     * Visite o [Google AI Studio](https://aistudio.google.com/app/apikey) ou o [Google Cloud Console](https://console.cloud.google.com/apis/credentials) para gerar sua chave.
     * **Importante:** Por questões de segurança, **NUNCA** incorpore sua API Key diretamente no código-fonte de um repositório público. Este projeto solicita a chave através de um campo de input na interface para uso local e demonstração.
 
-3.  **Execute a Aplicação:**
+4.  **Execute a Aplicação:**
     Após clonar o repositório e obter sua API Key, basta abrir o arquivo `index.html` diretamente em seu navegador web preferido. Não é necessário um servidor web para esta aplicação simples.
 
 
