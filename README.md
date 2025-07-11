@@ -1,4 +1,4 @@
-# 🎮 Assistente de Meta (Meta Assistant)
+# Assistente de Meta (Meta Assistant)
 
 Um assistente interativo e inteligente que utiliza API do Google Gemini para fornecer estratégias, builds otimizadas e dicas valiosas para aprimorar sua jogabilidade. Desenvolvido com foco na experiência do usuário, este projeto permite que você obtenha insights atualizados e relevantes para seus jogos favoritos.
 
@@ -11,6 +11,7 @@ Um assistente interativo e inteligente que utiliza API do Google Gemini para for
 
 ## ✅ Projeto Funcionando
 
+https://github.com/user-attachments/assets/646e5f59-fda8-43e3-88e1-af56e954d890
 
 ## 🚀 Tecnologias Utilizadas
 
