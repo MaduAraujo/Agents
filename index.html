@@ -31,8 +31,13 @@
                     <input id="questionInput" type="text" placeholder="Ex: Melhor build para..." required>
                     <button id="askButton">Perguntar</button>
                 </form>
-                <div id="aiResponse" class="hidden">
+                <div id="loadingIndicator" class="hidden" aria-live="polite">Carregando...</div>
+                <div id="aiResponse" class="hidden" aria-live="polite">
                     <div class="response-content"></div>
+                    <div class="response-actions">
+                        <br>
+                        <button id="copyResponseButton">Copiar Resposta</button>
+                    </div>
                 </div>
             </div>
         </section>

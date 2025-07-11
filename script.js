@@ -4,6 +4,7 @@ const questionInput = document.getElementById('questionInput')
 const askButton = document.getElementById('askButton')
 const aiResponse = document.getElementById('aiResponse')
 const form = document.getElementById('form')
+const copyResponseButton = document.getElementById('copyResponseButton');
 
 const markdownToHTML = (text) => {
     const converter = new showdown.Converter()
@@ -95,4 +96,16 @@ const enviarFormulario = async (event) => {
     }
 }
 
-form.addEventListener('submit', enviarFormulario)
+copyResponseButton.addEventListener('click', () => {
+    const textToCopy = aiResponse.querySelector('.response-content').innerText;
+    navigator.clipboard.writeText(textToCopy)
+        .then(() => {
+            alert('Resposta copiada para a área de transferência!');
+        })
+        .catch(err => {
+            console.error('Erro ao copiar texto: ', err);
+            alert('Não foi possível copiar a resposta.');
+        });
+});
+
+form.addEventListener('submit', enviarFormulario);
