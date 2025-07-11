@@ -50,3 +50,4 @@ Para configurar e rodar este projeto em seu ambiente de desenvolvimento local, s
 3.  **Selecione o Jogo:** Escolha um jogo na lista suspensa "Selecione um jogo". Os jogos pré-configurados são "Candy Crush Saga", "Hay Day" e "Perguntados".
 4.  **Faça sua Pergunta:** No campo de texto "Ex: Melhor build para...", digite sua dúvida ou solicitação relacionada ao jogo selecionado.
 5.  **Obtenha a Resposta:** Clique no botão "Perguntar". O botão mudará para "Perguntando..." enquanto a IA processa sua solicitação. A resposta será exibida na área abaixo do formulário.
+6.  **Copie a Resposta:** Ao final da resposta, clique no botão "Copiar" para copiar o conteúdo do campo de texto diretamente para a sua área de transferência.
